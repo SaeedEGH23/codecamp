@@ -4,6 +4,7 @@
 	"description": "A project for practice api developmment",
 	"keywords" : ["practice", "Nodejs", "learning", "freecodecamp"],
 	"license": "Free to use for publick",
+	"version": "1.0.0",
 	"dependencies": {
 		"express": "^4.14.0"
 	},
