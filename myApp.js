@@ -1,9 +1,11 @@
 let express = require('express');
 let app = express();
 
-function(req, res){
+app.http('/',function(req, res){
   res.send("Response String");
-}
+});
+
+
 console.log("Hello World");
 
 
