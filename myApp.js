@@ -1,7 +1,7 @@
 let express = require('express');
 let app = express();
 
-app.http('/',function(req, res){
+app.get('/', (req,res)=>{
   res.send("Response String");
 });
 
