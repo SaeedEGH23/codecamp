@@ -5,6 +5,9 @@ let app = express();
 
 app.use('/public', express.static(__dirname + "/public"));
 
+app.get('/json' , (req, res) => {
+  res.json({"message": "Hello json"});
+});
 
 const viewAbsolutePath = __dirname + '/views/index.html';
 
